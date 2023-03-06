@@ -1,6 +1,7 @@
 """ layers """
 import numpy as np
 import tensorflow as tf
+tf.compat.v1.disable_eager_execution()
 
 from tensorflow.python.training.moving_averages import assign_moving_average
 from tensorflow.python.ops import control_flow_ops
